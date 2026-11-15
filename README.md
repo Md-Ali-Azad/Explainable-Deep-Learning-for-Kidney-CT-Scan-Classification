@@ -64,6 +64,8 @@ The following results are from the evaluation run represented in the notebook ou
 
 ### 3a. Faithfulness: do the heat-maps highlight pixels the model uses?
 
+![Deletion and Insertion AUC](images/deletion_and_insertion.png)
+
 The deletion test progressively replaces the most salient pixels with blurred pixels. A faithful explanation should cause the target-class score to fall quickly, producing a **lower deletion AUC**.
 
 The insertion test starts from a blurred image and progressively restores the most salient pixels. A faithful explanation should restore the target-class score quickly, producing a **higher insertion AUC**.
