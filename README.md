@@ -141,7 +141,7 @@ Future work could compare different crop thresholds and margins, test multi-scal
 
 ### 3e. Case studies
 
-The notebook saves visual case studies in `part3_case_studies.png`. These examples place the original image and explanation maps alongside the ground-truth class and model prediction.
+The notebook saves visual case studies. These examples place the original image and explanation maps alongside the ground-truth class and model prediction.
 
 The selected examples illustrate several situations:
 
@@ -180,25 +180,6 @@ The current results have several important limitations:
 
 The next steps are to use a patient-level split if patient identifiers become available, obtain expert lesion annotations, increase the evaluation sample, quantify uncertainty in the metrics, and ask medical experts to assess whether the explanations are relevant and interpretable.
 
----
-
-## Outputs
-
-The notebook saves its generated figures, CSV files, and trained model in the results directory (in the Kaggle environment, `/kaggle/working/results`). Main outputs include:
-
-- `part1_dataset_index.csv`
-- `part2_test_predictions.csv`
-- `part3_xai_metrics.csv`
-- `part3_case_studies.png`
-- `part2_confusion_matrix.png`
-- `part2_training_curves.png`
-- `part2_reliability_before.png`
-- `part2_reliability_after.png`
-- `vgg16_kidney.keras`
-
-Save a Kaggle notebook version to preserve the generated outputs in that environment. If running locally, the output directory is controlled by the notebook settings.
-
----
 
 ## Paper citation
 
